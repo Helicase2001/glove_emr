@@ -8,6 +8,7 @@ import * as styles from "../components/index.module.css"
 import Cell from '../components/cell'
 import HeaderCell  from "../components/headerCell";
 import tableRow from "../components/tableRow";
+import RecommendedTable from "../components/recommendTable";
 
 
 const cellConfig = {
@@ -51,10 +52,16 @@ export default function IndexPage(){
   return (
   
   <Layout ref={pageRef} >
-      <span className='bg-clip-text font-bold text-transparent bg-gradient-to-r from-emerald-500 via-cyan-500 to-sky-500 animate-text lg:text-6xl md:text-5xl text-4xl mt-16'> Glove EMR </span>
+      <span className='bg-clip-text font-bold text-transparent bg-gradient-to-r from-emerald-500 via-cyan-500 to-sky-500 animate-text lg:text-6xl md:text-5xl text-4xl mt-16'> GlovEMR </span>
       <p className="text-4xl font-bold text-black pt-8 mb-0">Laboratory Results</p>
       <p className ="text-xl ">Patient: <span className="text-cyan-500">Steve Steffensen</span> | DOB: 02/18/2000</p>
       <div class="flex flex-col">
+    <RecommendedTable></RecommendedTable>
+      
+
+
+
+
 <div class="relative overflow-x-auto shadow-lg sm:rounded-lg">
     <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
         <thead class="text-xs text-gray-700 uppercase dark: bg-slate-200">
