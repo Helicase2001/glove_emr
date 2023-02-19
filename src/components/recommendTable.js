@@ -4,7 +4,7 @@ import { ChevronUpIcon } from '@heroicons/react/20/solid'
 import Cell from '../components/cell'
 import HeaderCell  from "../components/headerCell";
 import tableRow from "../components/tableRow";
-import MyModal from './modalPrompt';
+import MyModal from '../components/modalPrompt';
 
 
 
