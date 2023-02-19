@@ -9,7 +9,7 @@ import Cell from '../components/cell'
 import HeaderCell  from "../components/headerCell";
 import tableRow from "../components/tableRow";
 import RecommendedTable from "../components/recommendTable";
-
+import MyModal from './modalPrompt';
 
 const cellConfig = {
   // Colors
