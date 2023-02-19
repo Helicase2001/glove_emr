@@ -18,8 +18,7 @@ export default function MyModal() {
         <button
           type="button"
           onClick={openModal}
-          className="rounded-md px-4 py-2 text-md "
-        >
+          className="rounded-md px-4 py-2 text-md">
           Why this data?
         </button>
 
